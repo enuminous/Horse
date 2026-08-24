@@ -1,0 +1,12 @@
+good {'trust_calibration_error': 0.040000000000000036, 'handoff_integrity': 1.0, 'workload_penalty': 0.08999999999999998, 'intervention_latency': 1.0, 'intervention_quality': 0.6, 'joint_effectiveness': 0.9255000000000001, 'team_coherence': 0.9566666666666667}
+degraded {'trust_calibration_error': 0.49999999999999994, 'handoff_integrity': 0.2, 'workload_penalty': 0.825, 'intervention_latency': 7.0, 'intervention_quality': -0.5, 'joint_effectiveness': 0.33825000000000005, 'team_coherence': 0.2916666666666667}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
